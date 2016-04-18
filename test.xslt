@@ -18,6 +18,8 @@
       <xsl:value-of select="state" />
 	  <xsl:text>&#x9;</xsl:text>
     <xsl:value-of select="slots" />
+	<xsl:text>&#x9;</xsl:text>
+	<xsl:value-of select="tasks" />
 	  <xsl:text>&#x9;</xsl:text>
       <xsl:value-of select="JAT_start_time" />
 	  <xsl:value-of select="JB_submission_time" />
